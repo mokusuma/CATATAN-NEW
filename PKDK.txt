@@ -1,0 +1,147 @@
+26-07-2023{
+    TEMA: LAPORAN KEUANGAN
+
+    Keuntungan adanya laporan keuangan
+        Pihak yang untung/menggunakan:
+
+        1. pemberi pinjaman atau kreditor
+            contoh: - Bank
+                    - LKBB(Lembaga Keuangan Bukan Bank):
+                        - penggadaian
+                        - perusahaan pinjol
+        2. pemasok atau supplier
+        3. manajemen perusahaan
+        4. investor
+        5. pemerintah
+            - pajak
+        6. pelanggan
+        7. karyawan
+        8. masyarakat
+
+    Karakteristik:
+        1. dapat dipahami(understandability)
+        2. dapat dipercaya(reliability)
+        3. relevansi
+        4. dapat dibandingkan
+
+    komponen laporan keuangan:
+        1. neraca
+
+            jumlah activa dan pasiva harus sama
+            contoh neraca:
+
+                PT sejahtera
+                neraca
+                per 31 desember 2021
+
+                activa                          pasiva
+                ______________________________________
+                |harta lancar       |hutang lancar    |
+                |-kas               |-hutang dagang   |
+                |-efek              |-hutang gaji     |
+                |-piutang           |                 |
+                |-perusahaan        |hutang jk panjang|
+                |                   |-hipotik         |
+                |                   |                 |
+                |harta tetap        |modal            |
+                |-peralatan         |-modal sendiri   |
+                |-mesin             |                 |
+                |-mobil             |laba/rugi        |
+                |-bangunan          |                 |
+                |-tanah             |                 |
+                |           ________|         ________|
+                |jumlah     |Rp.... |jumlah   |Rp.....|
+                |_____________________________________|
+
+        2. laporan laba/rugi
+            pendapatan/penghasilan
+            -
+            -
+            -
+            -
+            -
+            -
+
+            biaya-biaya
+            -
+            -
+            -
+            -
+            -
+            -
+
+            jumlah laba/rugi                Rp......
+
+        3. laporan perubahan ekuitas(modal)
+            -modal awal .....Rp______
+            -laba/rugi  .....Rp______+/-(bisa nambah atau rugi)
+                             Rp......
+            
+            -prive      .....Rp______-
+            -modal akir      Rp______
+            * prive = pengambilan modal dari pemilik perusahaan(untuk keperluan pribadi pemilik)
+
+        4. laporan arus kas
+            berisi pemasukan dan pengeluaran uang tunai
+        
+        5. catatan atas laporan keuangan
+
+    PROSES AKUNTANSI
+
+    Transaksi -> Pencatatan -> Peringkasan-> Laporan
+
+    -> Dokumen Transaksi:
+        - nota
+        - struk belanja
+        - kwitansi
+        - faktur (bukti pembelian secara kredit)
+        - cek
+    
+    -> Dokumen Transaksi dicatat kedalam jurnal
+
+    -> jurnal diringkas menjadi buku besar
+        buku besar:
+        - kas
+        - piutang
+        - persediaan
+        - biaya listrik
+        - biaya rekening air 
+        - pendapatan 
+
+    -> hasil dari buku besar akan dijadikan laporan
+        laporan:
+        - neraca
+        - laba/rugi
+        - modal
+        - arus kas
+
+    PERSAMAAN DASAR AKUNTANSI
+
+        AKTIVA(harta) = HUTANG + MODAL
+        contoh: 
+        1-1-2009 pengeluaran modal oleh pemilik Rp 5.000.000,00
+        2-1-2009 diterima service komputer sekitar Rp 300.000,00 tetapi belum dibayar
+        3-1-2009 dibayar biaya listrik Rp 200.000,00
+
+        ----------------------------------------------------------------------------------------------------------
+        |tanggal    |                aktiva = hutang + modal                          | keterangan               |
+        ----------------------------------------------------------------------------------------------------------
+        |~~~~~~~~~~~|      Kas        |  Piutang  |     Hutang    |      Modal        |~~~~~~~~~~~~~~~~~~~~~~~~~~|
+        ----------------------------------------------------------------------------------------------------------
+        |1-1-2009   | Rp 5.000.000    |     -     |      -        | Rp 5.000.000      |  setoran modal pemilik   |
+        |2-1-2009   |        -        | Rp 300.000|      -        | Rp 300.000        |  dikirim pendapatan      |
+        |3-1-2009   | (-Rp 200.000)   |           |      -        | (-Rp 200.000)     |  dibayar biaya listrik   |
+        |           |                 |           |               |                   |                          |
+        ----------------------------------------------------------------------------------------------------------
+        |jumlah     |Rp 4.800.000     | Rp 300.000|      -        | Rp 5.100.000      |  TOTAL                   |
+        ----------------------------------------------------------------------------------------------------------
+
+    CATATAN:
+    penulisan uang:  B = benar  S = salah
+        Rp 200.000,00 (B)
+        Rp 200 RB (S)
+        Rp 200.000,- (S)
+    
+    pastikan menggunakan titik (.) untuk penulisan harga !!!
+
+}

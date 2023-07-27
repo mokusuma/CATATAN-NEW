@@ -1,0 +1,130 @@
+27-07-2023{
+    MTCNA hari pertama:
+        - TCP/IP insallation
+        - Basic configuration
+
+    TCP/IP insallation:
+        -MAC = media acces control
+            digunakan sbagai identitas yang unik dari setiap interface hardware, yang merupakan identitas untuk berkomunikasi di OSI layer 2
+
+            sebagian bit merupakan identitas pabrik pembuat hardware
+
+            memiliki 48 bit hex contoh: "AA:BB:CC:DD:EE:FF"
+
+            jika sebuah router memiliki 3 interface fisik, maka akan memiliki 3 buah mac address
+
+            untuk virtual interface(VLAN, EoIP) maka ditambahkan mac address virtual
+
+        -IP address = Internet protokol address
+                ip address adalah sistem pengalamatan setiap host yang terhubung ke jaringan
+
+                saat ini ip address yang banyak digunakan adalah ip versi 4. (32 bits/ 4 bytes) - 4.294.967.296 hosts
+
+        -pengelompokan ip address
+            pengelompokan ip address dilakukan dengan subneting
+
+            subnet.... 0 - 32
+                -melambangkan jumlah ip dalam subnet tersebut denagn rumus 2^(32-x) 
+
+                subnet 0 berarti semua ip address
+
+                subnet 32 berarti 1 ip address
+
+        -contoh ip lengkap:
+            - Contoh: 192.168.0.0/24
+                + Netmask : 255.255.255.0
+                + Prefix : /24
+                + IP Network : 192.168.0.0
+                + First HostIP: 192.168.0.1
+                + Last HostIP: 192.168.0.254
+                + Broadcast : 192.168.0.255
+                + HostIP : total IP di dalam Subnet (–) minus 2 
+
+        -public dan private ip 
+            public ip 
+                ip address yang dapat diakses di jaringan internet.
+
+            private ip 
+                ip address yang diperuntukkan untuk jaringan lokal
+
+        - ip protokol 
+            adalah protokol standart  yang digunakan untuk mengkomunikasikan data melalui berbagai jenis perangkat dan layer
+
+            pengiriman data dilakukan dengan sistem 'per paket' dan/atau 'per connection'
+
+            sistem ini menjamin kebutuhan data, dan mencegah terjadinya kekuranga ataupun duplikasi data
+
+            ada beragam protokol yang biasa digunakan, yang umum adalah TCP,UDP, dan ICMP
+
+        -ICMP(Internet Control Message Protokol)
+            dissalurkan berbasis "best effort" sehingga bisa terjadi error(datagram lost)
+
+            banyak digunakan untuk pengecekan jaringan
+
+            prinsip kerja:
+                host(router ataupun tujuan) akan mendeteksi apabila terjadi permasalah ntranmisi, dan embuat "ICMP massage" yang akan dikirimkan ke host asal 
+
+            aplikasi ICMP yang paling banyak digunakan: ping dan traceroute
+
+        -TCP(Transmission control protokol)
+            merupakan prtokol yang paling banyak digunakan di internet
+
+            bekerja dengan pengalamatan port 
+                port 1-1024 : low port(standart service port)
+
+                port 1025... : hight port(untuk tranmisi lanjutan)
+
+            contoh aplikasi aplikasi: http, email, ftp, dll
+
+            prinsip kerja: connection oriented,  reliable Transmission, error detection, flow control, segment size control, congestion control
+
+        - prinsip kerja TCP
+            connection oriented
+                koneksi diawali dengan proses "handshake"
+                    client -> SYN -> server
+                    server -> SYN-ACK -> client
+                    client -> ACK -> server
+                
+            reliable Transmission
+                mampu melakukan pengurutan paket data, setiap byte data ditandai dengan nomor yang unik 
+
+            error detection
+                jika terjadi errror, bisa dilakukan pengiriman ulang data
+
+            flow control 
+                mendeteksi supaya satu host tidak mengirimkan data ke host lainnya terlalu cepat
+            
+            segment size control 
+                mendeteksi besaran mss(maksimum segment size) yang bisa dikirimkan supaya tidak terjadi ip fragmentation
+
+            congestion control
+                TCP menggunakan beberapa mekansme untuk mencegah terjadinya congestion pada Network
+
+        -konsep dasar jaringan
+            host yang memiliki ip address dari subnet yang sama bisa terkoneksi langsung, tanpa melalui router
+
+            router bertugas untuk menghubungkan dua atau lebih jaringan yang memiliki subnet yang berbeda
+
+            dua buah ip address yang berasal dari subnet yang sama tidak boleh dipasang pada dua buah interface yang berbeda pada sebuah router
+
+            default gateway menentukan ke arah mana trafik harus disaunuk menuju ke internet
+
+            DNS diperlukan untuk melakukan pengubahahan nama domain menjadi ip address, karena seluruh proses pengaturan trrafik dilakukan berdasarkan layer 3 OSI, yaitu ip address
+
+    bridge:
+        Bridge - Concept
+            Menggabungkan 2 atau lebih interface yang bertipe
+            ethernet, atau sejenisnya, seolah-olah berada dalam 1
+            segmen network yang sama.
+
+            Proses penggabungan ini terjadi pada layer data link.
+
+            Mengaktifkan bridge pada 2 buah interface akan
+            menonaktifkan fungsi routing di antara kedua interface
+            tersebut.
+
+            Mengemulasi mode switch secara software pada dua
+            atau lebih interface. 
+
+
+}

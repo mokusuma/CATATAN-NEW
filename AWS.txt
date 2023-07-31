@@ -1,0 +1,213 @@
+Arsitektur cloud adalah praktik penerapan karakteristik cloud ke solusi yang menggunakan layanan dan fitur cloud untuk memenuhi kebutuhan teknis organisasi dan kasus penggunaan bisnis. Solusinya mirip dengan cetak biru untuk bangunan.
+
+Sistem perangkat lunak membutuhkan arsitek untuk mengelola ukuran dan kompleksitasnya.
+
+ Arsitek cloud: 
+ • Terlibat dengan pengambil keputusan untuk mengidentifikasi tujuan bisnis dan kemampuan yang perlu ditingkatkan. 
+ • Pastikan keselarasan antara kiriman teknologi dari suatu solusi dan tujuan bisnis. 
+ • Bekerja dengan tim pengiriman yang menerapkan solusi untuk memastikan bahwa fitur teknologi sesuai. 
+
+AWS Well-Architected Framework diatur ke dalam enam pilar:
+    -Keunggulan Operasional
+    -Keamanan
+    -Keandalan
+    -Efisiensi Kinerja
+    -Pengoptimalan Biaya
+    -dan Keberlanjutan. 
+
+Pilar Keamanan membahas kemampuan untuk melindungi informasi, sistem, dan aset sambil memberikan nilai bisnis melalui penilaian risiko dan strategi mitigasi. 
+
+Arsitektur Anda akan menghadirkan kehadiran keamanan yang jauh lebih kuat jika Anda menerapkan fondasi identitas yang kuat, memungkinkan keterlacakan, menerapkan keamanan di semua lapisan, mengotomatiskan praktik terbaik keamanan, dan melindungi data saat transit dan saat istirahat.
+
+Saat Anda merancang beban kerja untuk operasi, Anda harus mengetahui bagaimana beban kerja tersebut akan disebarkan, diperbarui, dan dioperasikan. Menerapkan praktik rekayasa yang selaras dengan pengurangan cacat dan perbaikan yang cepat dan aman. Aktifkan pengamatan dengan logging, instrumentasi, dan metrik bisnis dan teknis sehingga Anda dapat memperoleh wawasan tentang apa yang terjadi di dalam arsitektur Anda.
+
+Di AWS, Anda dapat melihat seluruh beban kerja Anda (aplikasi, infrastruktur, kebijakan, tata kelola, dan operasi) sebagai kode. Itu semua dapat didefinisikan dan diperbarui menggunakan kode. Ini berarti Anda dapat menerapkan disiplin teknik yang sama yang Anda gunakan untuk kode aplikasi ke setiap elemen tumpukan Anda.
+
+Pilar Keandalan membahas kemampuan sistem untuk pulih dari gangguan infrastruktur atau layanan dan secara dinamis memperoleh sumber daya komputasi untuk memenuhi permintaan. Ini juga membahas kemampuan sistem untuk mengurangi gangguan seperti kesalahan konfigurasi atau masalah jaringan sementara.
+
+Penting juga untuk mendemokratisasikan teknologi canggih. Dalam situasi di mana teknologi sulit diterapkan sendiri, pertimbangkan untuk menggunakan vendor. Dengan menerapkan teknologi untuk Anda, vendor menangani kompleksitas dan pengetahuan, membebaskan tim Anda untuk fokus pada pekerjaan yang lebih bernilai tambah
+
+Simpati mekanis adalah ketika Anda menggunakan alat atau sistem dengan pemahaman tentang cara kerjanya yang terbaik. Gunakan pendekatan teknologi yang paling sesuai dengan apa yang ingin Anda capai. Misalnya, pertimbangkan pola akses data saat Anda memilih database atau pendekatan penyimpanan
+
+Optimalisasi biaya adalah persyaratan berkelanjutan dari setiap desain arsitektur yang baik. Prosesnya berulang, dan harus disempurnakan dan ditingkatkan sepanjang masa produksi Anda. Memahami seberapa efisien arsitektur Anda saat ini dalam kaitannya dengan tujuan Anda dapat menghilangkan biaya yang tidak dibutuhkan. Pertimbangkan untuk menggunakan layanan terkelola karena beroperasi pada skala cloud, dan mereka dapat menawarkan biaya per transaksi atau layanan yang lebih rendah.
+
+Keberlanjutan di cloud adalah upaya berkelanjutan yang berfokus terutama pada pengurangan energi dan efisiensi di semua komponen beban kerja dengan mencapai manfaat maksimal dari sumber daya yang disediakan dan meminimalkan total sumber daya yang diperlukan. Upaya ini dapat berkisar dari pemilihan awal bahasa pemrograman yang efisien, adopsi algoritma modern, penggunaan teknik penyimpanan data yang efisien, penerapan ke infrastruktur komputasi yang berukuran tepat dan efisien, dan meminimalkan persyaratan untuk perangkat keras pengguna akhir bertenaga tinggi
+
+Jika Anda memerlukan bantuan dalam merancang solusi well-architected, Anda dapat menggunakan AWS Well-Architected Tool. AWS Well-Architected Tool adalah alat layanan mandiri yang memberi Anda akses sesuai permintaan ke praktik terbaik AWS saat ini. Praktik terbaik ini dapat membantu Anda membangun infrastruktur aplikasi yang aman, berkinerja tinggi, tangguh, dan efisien di AWS.
+
+Alat ini tersedia di AWS Management Console. Anda menentukan beban kerja Anda dan menjawab serangkaian pertanyaan di bidang keunggulan operasional, keamanan, keandalan, efisiensi kinerja, dan pengoptimalan biaya. AWS Well-Architected Tool kemudian memberikan rencana tindakan dengan panduan langkah demi langkah tentang cara meningkatkan beban kerja Anda untuk cloud.
+
+AWS Well-Architected Tool menyediakan proses yang konsisten bagi Anda untuk meninjau dan mengukur arsitektur cloud Anda. Anda dapat menggunakan hasil yang diberikan alat ini untuk mengidentifikasi langkah selanjutnya untuk perbaikan, mendorong keputusan arsitektur, dan membawa pertimbangan arsitektur ke dalam proses tata kelola perusahaan Anda.
+
+AWS Well-Architected Tool
+    •Membantu Anda meninjau status beban kerja Anda dan membandingkannya dengan praktik terbaik arsitektur AWS terbaru
+    •Memberi Anda akses ke pengetahuan dan praktik terbaik yang digunakan oleh arsitek AWS, saat Anda membutuhkannya
+    •Memberikan rencana tindakan dengan panduan langkah demi langkah tentang cara membangun beban kerja yang lebih baik untuk cloud
+    •Menyediakan proses yang konsisten bagi Anda untuk meninjau dan mengukur arsitektur cloud Anda
+
+Beberapa poin penting dari bagian modul ini meliputi:
+    •AWS Well-Architected Framework memberikan pendekatan yang konsisten untuk mengevaluasi arsitektur cloud dan panduan untuk membantu mengimplementasikan desain.
+    •AWS Well-Architected Framework diatur ke dalam enam pilar
+    •Setiap pilar mendokumentasikan serangkaian pertanyaan mendasar yang memungkinkan Anda memahami apakah arsitektur tertentu selaras dengan praktik terbaik cloud. 
+    •AWS Well-Architected Tool membantu Anda meninjau status beban kerja Anda dan membandingkannya dengan praktik terbaik arsitektur AWS terbaru.
+
+Pengorbanan desain
+    •Evaluasi pengorbanan sehingga Anda dapat memilih pendekatan yang optimal
+    •Contoh pengorbanan meliputi:
+        •Konsistensi, daya tahan, dan ruang perdagangan untuk waktu dan latensi untuk memberikan kinerja yang lebih tinggi
+        •Prioritaskan kecepatan ke pasar fitur baru daripada biaya
+    •Keputusan desain dasar pada data empiris
+
+1. Enable scalability
+
+Untuk memahami pentingnya skalabilitas, pertimbangkan anti-pola ini, di mana penskalaan dilakukan secara reaktif dan manual.
+
+Dalam skenario ini, ketika server aplikasi mencapai kapasitas penuh, pengguna dicegah mengakses aplikasi. Administrator kemudian meluncurkan satu atau beberapa instans baru secara manual untuk mengelola beban. Sayangnya, dibutuhkan beberapa menit agar instance tersedia untuk digunakan setelah diluncurkan. Itu meningkatkan waktu pengguna tidak dapat mengakses aplikasi
+
+Dengan mengaktifkan skalabilitas, Anda dapat meningkatkan desain Anda untuk mengantisipasi kebutuhan akan kapasitas yang lebih besar dan mengirimkannya sebelum terlambat.
+
+Misalnya, Anda dapat menggunakan solusi pemantauan seperti Amazon CloudWatch untuk mendeteksi apakah total beban di seluruh armada server Anda telah mencapai ambang batas yang ditentukan. Anda dapat menentukan ambang batas ini untuk Tetap di atas 60% pemanfaatan CPU selama lebih dari 5 menit, atau apa pun yang terkait dengan penggunaan sumber daya. Dengan CloudWatch, Anda juga dapat merancang metrik kustom berdasarkan aplikasi tertentu yang dapat memicu penskalaan sumber daya yang diperlukan.
+
+Ketika alarm dipicu, Amazon EC2 Auto Scaling segera meluncurkan instans baru. Instans tersebut kemudian siap sebelum kapasitas tercapai, yang memberikan pengalaman tanpa batas bagi pengguna. Idealnya, Anda juga harus merancang sistem Anda untuk menskalakan ketika permintaan turun sehingga Anda tidak menjalankan (dan membayar) instans yang tidak lagi Anda butuhkan.
+
+2. Automate your environment
+
+AWS menawarkan alat pemantauan dan otomatisasi bawaan di hampir setiap lapisan infrastruktur Anda. Manfaatkan alat ini untuk memastikan bahwa infrastruktur Anda dapat merespons perubahan dengan cepat. Anda dapat menggunakan alat seperti CloudWatch dan Amazon EC2 Auto Scaling untuk mendeteksi sumber daya yang tidak sehat dan mengotomatiskan peluncuran sumber daya pengganti. Anda juga dapat diberi tahu saat alokasi sumber daya berubah
+
+3. Treat resources as disposable
+
+Praktik terbaik untuk memperlakukan sumber daya sebagai sekali pakai mengacu pada gagasan memikirkan infrastruktur Anda sebagai perangkat lunak, bukan perangkat keras. Dengan perangkat keras, mudah untuk membeli komponen yang lebih spesifik daripada yang Anda butuhkan sehingga Anda siap untuk lonjakan penggunaan. Itu mahal dan tidak fleksibel — lebih sulit untuk ditingkatkan karena biaya hangus.
+
+Sebaliknya, ketika Anda memperlakukan sumber daya Anda sebagai sekali pakai, migrasi antar instans atau sumber daya terpisah lainnya cukup mudah. Anda dapat dengan cepat merespons perubahan kebutuhan kapasitas, meningkatkan aplikasi, dan mengelola perangkat lunak yang mendasarinya
+
+4. Use loosely coupled components
+
+Infrastruktur tradisional memiliki rantai server yang terintegrasi erat, masing-masing dengan tujuan tertentu. Masalahnya adalah ketika salah satu komponen atau lapisan tersebut rusak, gangguan pada sistem bisa berakibat fatal. Ini juga menghambat penskalaan.Jika Anda menambah atau menghapus server pada satu lapisan, Anda juga harus menghubungkan setiap server pada setiap lapisan penghubung.
+
+Contoh di sebelah kiri mengilustrasikan kumpulan server web dan aplikasi yang digabungkan secara erat. Jika satu server aplikasi mati, kesalahan akan terjadi karena server web mencoba dan gagal menyambungkannya.
+
+Dengan loose coupling, Anda menggunakan solusi terkelola sebagai perantara antara lapisan sistem Anda. Dengan desain ini, perantara secara otomatis menangani kegagalan dan penskalaan komponen atau lapisan.
+
+Contoh di sebelah kanan menunjukkan penyeimbang beban (dalam hal ini, penyeimbang beban Elastic Load Balancing) yang merutekan permintaan antara server web dan server aplikasi. Jika satu server aplikasi mati, penyeimbang beban akan secara otomatis mulai mengarahkan semua lalu lintas ke dua server yang sehat.
+
+Dua solusi utama untuk memisahkan komponen Anda adalah penyeimbang beban dan antrean pesan.
+
+5. Design services, not servers
+
+Anti-pola
+    •Aplikasi sederhana berjalan di server persisten
+    •Aplikasi berkomunikasi langsung satu sama lain•Aset web statis disimpan secara lokal pada instans
+    •Server backend menangani otentikasi pengguna dan penyimpanan status pengguna
+
+Praktik terbaik
+    •Jika sesuai, pertimbangkan untuk menggunakan kontainer atau solusi nirserver
+    •Antrean pesan menangani komunikasi antar aplikasi
+    •Aset web statis disimpan secara eksternal, seperti di Amazon Simple Storage Service (Amazon S3)
+    •Autentikasi pengguna dan penyimpanan status pengguna ditangani oleh layanan AWS terkelola
+
+6. Choose the right database solution
+
+Hal-hal yang perlu dipertimbangkan:
+    •Kebutuhan baca dan tulis
+    •Persyaratan penyimpanan total
+    •Ukuran objek umum dan sifat akses ke objek ini
+    •Persyaratan daya tahan
+    •Persyaratan latensi
+    •Pengguna bersamaan maksimum untuk mendukung
+    •Sifat kueri
+    •Kekuatan kontrol integritas yang diperlukan
+
+7. Avoid single points of failure
+
+Jika memungkinkan, hilangkan satu titik kegagalan dari arsitektur Anda. Ini tidak berarti bahwa Anda harus selalu menduplikasi setiap komponen. Bergantung pada perjanjian tingkat layanan waktu henti (SLA) Anda, Anda dapat menggunakan solusi otomatis yang hanya meluncurkan komponen saat diperlukan. Anda juga dapat menggunakan layanan terkelola, pada AWS secara otomatis menggantikan perangkat keras dasar yang tidak berfungsi untuk Anda. 
+
+Sistem sederhana ini menunjukkan dua server aplikasi yang terhubung ke satu server basis data. Server basis data mewakili satu titik kegagalan dan harus dihindari. Saat turun, server aplikasi juga turun. 
+
+Server aplikasi harus terus berfungsi meskipun perangkat keras fisik yang mendasarinya gagal, dihapus, atau diganti.
+
+Cara umum untuk menghindari titik kegagalan tunggal adalah dengan membuat server basis data sekunder (siaga) dan mereplikasi data. Dengan cara ini, jika server basis data utama offline, server sekunder dapat mengambil beban. 
+
+Dalam contoh ini, ketika basis data utama offline, server aplikasi secara otomatis mengirimkan permintaannya ke basis data sekunder. Contoh ini juga mencontohkan Praktik Terbaik #3: Perlakukan sumber daya sebagai sekali pakai, dan rancang aplikasi Anda untuk mendukung perubahan perangkat keras.
+
+8. Optimize for cost
+
+Hal-hal yang perlu dipertimbangkan:
+    •Apakah sumber daya saya memiliki ukuran dan jenis yang tepat untuk pekerjaan itu?
+    •Metrik apa yang harus saya pantau?
+    •Bagaimana cara memastikan untuk menonaktifkan sumber daya yang tidak digunakan?
+    •Seberapa sering saya perlu menggunakan sumber daya ini?
+    •Dapatkah saya mengganti server saya dengan layanan terkelola?
+
+9. Use caching
+
+Caching adalah teknik untuk membuat permintaan di masa mendatang lebih cepat dan mengurangi throughput jaringan dengan menyimpan sementara data di lokasi perantara antara pemohon dan penyimpanan permanen
+
+10. Secure your entire infrastructure
+
+Hal-hal yang perlu dipertimbangkan:
+    •Mengisolasi bagian infrastruktur Anda
+    •Mengenkripsi data saat transit dan saat istirahat
+    •Menerapkan kontrol akses secara terperinci, menggunakan prinsip hak istimewa paling rendah
+    •Gunakan autentikasi multifaktor (MFA)
+    •Gunakan layanan terkelola
+    •Akses log sumber daya
+    •Otomatiskan penyebaran Anda untuk menjaga keamanan tetap konsisten
+
+Inti dari bagian modul ini adalah:
+    •Saat Anda merancang solusi, evaluasi pengorbanan dan dasarkan keputusan Anda pada data empiris
+    •Ikuti praktik terbaik ini saat membangun solusi di AWS –
+        •Aktifkan skalabilitas•Otomatiskan lingkungan Anda
+        •Perlakukan sumber daya sebagai sekali pakai
+        •Gunakan komponen yang digabungkan secara longgar
+        •Layanan desain, bukan server
+        •Pilih solusi database yang tepat
+        •Hindari satu titik kegagalan
+        •Optimalkan biaya
+        •Gunakan caching
+        •Amankan seluruh infrastruktur Anda
+
+AWS Regions
+
+•Wilayah AWS adalah wilayah geografis
+•Setiap Wilayah AWS terdiri dari dua atau lebih Availability Zone
+•Komunikasi antar Wilayah menggunakan infrastruktur jaringan backbone AWS
+•Anda mengaktifkan dan mengontrol replikasi data di seluruh Wilayah
+
+AWS Availability Zones
+
+•Setiap Availability Zone adalah –
+    •Terdiri dari satu atau beberapa pusat data
+    •Dirancang untuk isolasi kesalahan
+    •Saling terhubung dengan Availability Zone lain di suatu Wilayah menggunakan tautan privat berkecepatan tinggi
+•Untuk layanan tertentu, Anda dapat memilih Availability Zone Anda
+•AWS merekomendasikan replikasi di seluruh Availability Zone untuk ketahanan
+
+AWS Local Zones
+
+•Memungkinkan Anda menjalankan bagian aplikasi yang sensitif latensi lebih dekat ke pengguna akhir dan sumber daya dalam geografi tertentu
+•Merupakan ekstensi Wilayah AWS tempat Anda dapat menggunakan layanan AWS dalam kedekatan geografis dengan pengguna akhir 
+•Memungkinkan Anda menempatkan komputasi, penyimpanan, database, dan layanan pilihan AWS lainnya lebih dekat ke populasi besar, industri, dan pusat IT di mana tidak ada Wilayah saat ini
+•Dikelola dan didukung oleh AWS
+•Los Angeles (LA) AWS Local Zone tersedia oleh undangan
+
+AWS data centers
+
+•Pusat data adalah tempat data berada dan pemrosesan data terjadi
+•Pusat data biasanya memiliki puluhan ribu server
+•Semua pusat data online dan melayani pelanggan
+•Peralatan jaringan kustom AWS –
+    •Bersumber dari beberapa ODM
+    •Memiliki tumpukan protokol jaringan yang disesuaikan
+
+AWS Points of Presence
+
+Lokasi tepi terletak di Amerika Utara, Eropa, Asia, Australia, Amerika Selatan, Timur Tengah, Afrika, dan Cina. Lokasi edge mendukung layanan AWS seperti Amazon Route 53 dan Amazon CloudFront
+
+Regional edge caches are used by default with Amazon CloudFront. They are used when you have content that is not accessed frequently enough to remain in an edge location. Regional edge caches absorb this content and provide an alternative to fetching the content from the origin server.
+
+Beberapa poin penting dari bagian modul ini meliputi:
+    •Infrastruktur global AWS terdiri dari Wilayah dan Availability Zone
+    •Pilihan Wilayah Anda biasanya didasarkan pada persyaratan kepatuhan atau untuk mengurangi latensi
+    •Setiap Availability Zone secara fisik terpisah dari Availability Zone lainnya dan memiliki daya, jaringan, dan konektivitas redundan
+    •Lokasi edge dan cache edge Regional meningkatkan kinerja dengan menyimpan konten dalam cache lebih dekat ke pengguna
+

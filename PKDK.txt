@@ -175,7 +175,33 @@ JURNAL UMUM
         kolom 7 untuk memindahkan jumlah jurnal jika halaman yang dipakai sudah penuh
         kolom 8 untuk mencatat referensi yaitu transaksi yang sudah dicatat kedalam jurnal umum kemudian diposting buku besar
 
+    kelompok aktiva:
+    nama perkiraan/rekening
+    - kas
+    - persediaan
+    - piutang
+    - peralatan
+    - mesin pabrik
+    - kendaraan
+    - bangunan
+    - tanah
+    
+    jika kelompok aktiva bertambah(+) dicatat didebit
+    jika kelompok aktiva berkurang(-) dicatat dikredit
 
-    awi tolol
+    kelompok pasiva:
+    nama perkiraan/rekening
+    - hutang
+        - hutang gaji
+        - hutang dagang
+        - hutang peralatan
+    - modal
+
+    jika pasiva kebalikannya
+    jika kelompok pasiva bertambah(+) dicatat dikredit
+    jika kelompok pasiva berkurang(-) dicatat didebit
+
+    biaya-biaya -> mencatatnya sama dengan kelompok aktiva
+    pendapatan -> mencatatnya sama dengan kelompok pasiva
 
 }

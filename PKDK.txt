@@ -204,4 +204,22 @@ JURNAL UMUM
     biaya-biaya -> mencatatnya sama dengan kelompok aktiva
     pendapatan -> mencatatnya sama dengan kelompok pasiva
 
-}
+    contoh:
+    01-02-2016 diterima setoran MODAL oleh pemilik sebanyak Rp 30.000.000,00
+                modal(+) -> kredit Rp 30.000.000,00
+                kas(+) -> kredit Rp 30.000.000,00
+        --------------------------------------------------------------------------------------------  * pastikan kasih halat (modal)
+        |        tanggal        |     keterangan     |    ref    |              jumlah             |
+        |                       |                    |           |      debit     |     kredit     |
+        --------------------------------------------------------------------------------------------
+        |01-02-2016 |           |kas---              |           |Rp 30.000.000   |        -       |
+        |           |           |    modal           |           |       -        |Rp 30.000.000   |
+        |           |           |(diterima setoran   |           |                |                |
+        |           |           | modal oleh pemilik)|           |                |                |
+        |           |           |                    |           |                |                |
+        |           |           |-------------------------------------------------------------------
+        |           |           |  jumlah dipindahkan|           |Rp....          |  Rp....        |
+        --------------------------------------------------------------------------------------------
+
+
+} 

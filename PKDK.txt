@@ -216,12 +216,12 @@ JURNAL UMUM
         |        tanggal        |     keterangan     |    ref    |              jumlah             |
         |                       |                    |(referensi)|      debit     |     kredit     |
         --------------------------------------------------------------------------------------------
-        |01-02-2016 |           |kas                 |           |Rp 30.000.000   |        -       |
-        |           |           |    modal           |           |       -        |Rp 30.000.000   |
+        |    2016   |     01    |kas                 |           |Rp 30.000.000   |        -       |
+        |  february |           |    modal           |           |       -        |Rp 30.000.000   |
         |           |           |(diterima setoran   |           |                |                |
         |           |           | modal oleh pemilik)|           |                |                |
         |           |           |                    |           |                |                |
-        |03-02-2016 |           |peralatan pabrik    |           |Rp 7.000.000    |        -       |
+        |           |     03    |peralatan pabrik    |           |Rp 7.000.000    |        -       |
         |           |           |    kas             |           |       -        |Rp 2.500.000    |
         |           |           |    hutang peralatan|           |       -        |Rp 4.500.000    |
         |           |           |(membeli peralatan  |           |                |                |

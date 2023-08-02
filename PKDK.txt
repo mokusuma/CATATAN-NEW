@@ -176,6 +176,6 @@ JURNAL UMUM
         kolom 8 untuk mencatat referensi yaitu transaksi yang sudah dicatat kedalam jurnal umum kemudian diposting buku besar
 
 
-
+    awi tolol
 
 }

@@ -208,14 +208,25 @@ JURNAL UMUM
     01-02-2016 diterima setoran MODAL oleh pemilik sebanyak Rp 30.000.000,00
                 modal(+) -> kredit Rp 30.000.000,00
                 kas(+) -> kredit Rp 30.000.000,00
+    03-02-2016 membeli peralatan pabrik senilai Rp 7.000.000,00 baru dibayar Rp 2.500.000
+                peralatan pabrik(+) didebit Rp 7.000.000
+                kas(-) dikredit Rp 2.500.000
+                hutang peralatan(+) didebit 4.500.000
         --------------------------------------------------------------------------------------------  
         |        tanggal        |     keterangan     |    ref    |              jumlah             |
         |                       |                    |(referensi)|      debit     |     kredit     |
         --------------------------------------------------------------------------------------------
         |01-02-2016 |           |kas                 |           |Rp 30.000.000   |        -       |
         |           |           |    modal           |           |       -        |Rp 30.000.000   |
-        |           |           |(diterima setoran   |           |                |                
+        |           |           |(diterima setoran   |           |                |                |
         |           |           | modal oleh pemilik)|           |                |                |
+        |           |           |                    |           |                |                |
+        |03-02-2016 |           |peralatan pabrik    |           |Rp 7.000.000    |        -       |
+        |           |           |    kas             |           |       -        |Rp 2.500.000    |
+        |           |           |    hutang peralatan|           |       -        |Rp 4.500.000    |
+        |           |           |(membeli peralatan  |           |                |                |
+        |           |           | secara tunai dan   |           |                |                |
+        |           |           | kredit)            |           |                |                |
         |           |           |                    |           |                |                |
         |           |           |-------------------------------------------------------------------
         |           |           |jumlah dipindahkan  |           | Rp....         | Rp....         |

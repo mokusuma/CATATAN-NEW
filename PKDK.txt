@@ -123,18 +123,18 @@
         2-1-2009 diterima service komputer sekitar Rp 300.000,00 tetapi belum dibayar
         3-1-2009 dibayar biaya listrik Rp 200.000,00
 
-        ----------------------------------------------------------------------------------------------------------
-        |tanggal    |                aktiva = hutang + modal                          | keterangan               |
-        ----------------------------------------------------------------------------------------------------------
-        |~~~~~~~~~~~|      Kas        |  Piutang  |     Hutang    |      Modal        |~~~~~~~~~~~~~~~~~~~~~~~~~~|
-        ----------------------------------------------------------------------------------------------------------
-        |1-1-2009   | Rp 5.000.000    |     -     |      -        | Rp 5.000.000      |  setoran modal pemilik   |
-        |2-1-2009   |        -        | Rp 300.000|      -        | Rp 300.000        |  dikirim pendapatan      |
-        |3-1-2009   | (-Rp 200.000)   |           |      -        | (-Rp 200.000)     |  dibayar biaya listrik   |
-        |           |                 |           |               |                   |                          |
-        ----------------------------------------------------------------------------------------------------------
-        |jumlah     |Rp 4.800.000     | Rp 300.000|      -        | Rp 5.100.000      |  TOTAL                   |
-        ----------------------------------------------------------------------------------------------------------
+    ----------------------------------------------------------------------------------------------------------
+    |tanggal    |                aktiva = hutang + modal                          | keterangan               |
+    ----------------------------------------------------------------------------------------------------------
+    |      |    | Kas        |  Piutang  |     Hutang    |      Modal        |~~~~~~~~~~~~~~~~~~~~~~~~~~|
+    ----------------------------------------------------------------------------------------------------------
+    |1-1-2009   | Rp 5.000.000    |     -     |      -        | Rp 5.000.000      |  setoran modal pemilik   |
+    |2-1-2009   |        -        | Rp 300.000|      -        | Rp 300.000        |  dikirim pendapatan      |
+    |3-1-2009   | (-Rp 200.000)   |           |      -        | (-Rp 200.000)     |  dibayar biaya listrik   |
+    |           |                 |           |               |                   |                          |
+    ----------------------------------------------------------------------------------------------------------
+    |jumlah     |Rp 4.800.000     | Rp 300.000|      -        | Rp 5.100.000      |  TOTAL                   |
+    ----------------------------------------------------------------------------------------------------------
 
     CATATAN:
     penulisan uang:  B = benar  S = salah
@@ -143,5 +143,39 @@
         Rp 200.000,- (S)
     
     pastikan menggunakan titik (.) untuk penulisan harga !!!
+
+}
+
+02-08-2023{
+JURNAL UMUM
+    jurnal umum digunakan untuk mendata transaksi keuangan dan menghindari adanya kesalahan
+
+
+                                                    halaman......1
+        --------------------------------------------------------------
+        |  tanggal  |     keterangan     |    ref    |    jumlah     |
+        |           |                    |           | debit| kredit |
+        --------------------------------------------------------------
+        |  2  |     |  3                 |    8      |       5       |
+        |     |     |                    |           |               |
+        |     |     |  6.....            |           |               |
+        |     |     |                    |           |               |
+        |     |     |                    |           |               |
+        |     |     |-------------------------------------------------
+        |     |     |7 jumlah dipindahkan| Rp....    |  Rp....       |
+        --------------------------------------------------------------
+
+        keterangan:
+        kolom 1 untuk mencatat halaman jurnal diisi sesuai lembaran jurnal
+        kolom 2 untuk mencatat tanggal 
+        kolom 3 untuk mencatat rekening(nama akun) yang didebit atau kredit
+        kolom 4 untuk mencatat jumlah uang yang di debit
+        kolom 5 untuk mencatat jumlah uang yang dari rekening kredit
+        kolom 6 untuk penjelasan transaksi yang diisi dengan penjelasan singkat
+        kolom 7 untuk memindahkan jumlah jurnal jika halaman yang dipakai sudah penuh
+        kolom 8 untuk mencatat referensi yaitu transaksi yang sudah dicatat kedalam jurnal umum kemudian diposting buku besar
+
+
+
 
 }

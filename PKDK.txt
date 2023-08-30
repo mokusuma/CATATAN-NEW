@@ -233,6 +233,95 @@ JURNAL UMUM
         --------------------------------------------------------------------------------------------
         * pastikan kasih halat yang bagian kredit(modal)
 
-
-
 } 
+
+13-08-2023 {
+    ada 2 jenis buku besar:
+
+    1 . bentuk skontro
+
+                                                                   JURNAL UMUM
+                    debit                                              kas                                       kredit
+        -----------------------------------------------------------------------------------------------------------------------------------------------------
+        |        tanggal        |     keterangan     |    ref    |                |        tanggal        |     keterangan     |    ref    |                |
+        |                       |                    |(referensi)|      jumlah    |                       |                    |(referensi)|      jumlah    |
+        -----------------------------------------------------------------------------------------------------------------------------------------------------
+        |           |           |                    |           |                |    2016   |     01    |kas                 |           |Rp 30.000.000   |
+        |           |           |                    |           |                |  february |           |    modal           |           |       -        |
+        |           |           |                    |           |                |           |           |(diterima setoran   |           |                |
+        |           |           |                    |           |                |           |           | modal oleh pemilik)|           |                |
+        |           |           |                    |           |                |           |           |                    |           |                |
+        |           |           |                    |           |                |           |     03    |peralatan pabrik    |           |Rp 7.000.000    |
+        |           |           |                    |           |                |           |           |    kas             |           |       -        |
+        |           |           |                    |           |                |           |           |    hutang peralatan|           |       -        |
+        |           |           |                    |           |                |           |           |(membeli peralatan  |           |                |
+        |           |           |                    |           |                |           |           | secara tunai dan   |           |                |
+        |           |           |                    |           |                |           |           | kredit)            |           |                |
+        |           |           |                    |           |                |           |           |                    |           |                |
+        |           |           |-------------------------------------------------|           |           |-------------------------------------------------|
+        |           |           |jumlah dipindahkan  |           | Rp....         |           |           |jumlah dipindahkan  |           | Rp....         |
+        -----------------------------------------------------------------------------------------------------------------------------------------------------
+
+    2. bentuk stafel
+
+                                                    JURNAL UMUM
+        -------------------------------------------------------------------------------------------------------------
+        |        tanggal        |     keterangan     |    ref    |                |                |      saldo     |
+        |                       |                    |(referensi)|      debit     |     kredit     |                |
+        -------------------------------------------------------------------------------------------------------------
+        |    2016   |     01    |kas                 |           |Rp 30.000.000   |        -       |                |
+        |  february |           |    modal           |           |       -        |Rp 30.000.000   |                |
+        |           |           |(diterima setoran   |           |                |                |                |
+        |           |           | modal oleh pemilik)|           |                |                |                |
+        |           |           |                    |           |                |                |                |
+        |           |     03    |peralatan pabrik    |           |Rp 7.000.000    |        -       |                |
+        |           |           |    kas             |           |       -        |Rp 2.500.000    |                |
+        |           |           |    hutang peralatan|           |       -        |Rp 4.500.000    |                |
+        |           |           |(membeli peralatan  |           |                |                |                |
+        |           |           | secara tunai dan   |           |                |                |                |
+        |           |           | kredit)            |           |                |                |                |
+        |           |           |                    |           |                |                |                |
+        |           |           |------------------------------------------------------------------------------------
+        |           |           |jumlah dipindahkan  |           | Rp....         | Rp....         |Rp....          |
+        -------------------------------------------------------------------------------------------------------------
+
+        *catatan: - setiap buku besar harus dikasih judul diatasnya
+
+}
+
+30-08-2023{
+
+    pengkodean rekening
+
+    A. sistem numerical
+    yaitu cara pengkodean dengan menggunakan angka
+
+    1. sistem blok
+        contoh:
+        a. aktiva atau harta (100-200)
+            kas (10)
+            surat beharga (102)
+            piutang (103)
+        b. aktiva tetap (120)
+            pendapatan (121)
+            mesin pabrik (122)
+            gedung (123)
+            kendaraan (124)
+        c. utang (201-250)
+
+            utang jangka pendek/utang lancar (202)
+            -utang gaji (203)
+            -utang sewa (204)
+            -utang dagang (205)
+
+            utang jangka panjang (212)
+            -utang hipotik (213)
+            -utang obligasi (214)
+
+            modal (301-311)
+
+            pendpatan (400)
+
+            biaya (500)
+
+}

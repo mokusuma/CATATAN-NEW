@@ -300,10 +300,10 @@ JURNAL UMUM
         contoh:
         a. aktiva atau harta (100-200)
             kas (10)
-            surat beharga (102)
+            surat berharga (102)
             piutang (103)
         b. aktiva tetap (120)
-            pendapatan (121)
+            peralatan (121)
             mesin pabrik (122)
             gedung (123)
             kendaraan (124)
@@ -323,5 +323,44 @@ JURNAL UMUM
             pendpatan (400)
 
             biaya (500)
+
+        -----------------------------------------------------------------------------------------------------------------------------------------
+        | no | nama rekening                                | kode blok | kode kelompok | sistem desimal | mnemonic | kombinasi huruf dan angka |
+        -----------------------------------------------------------------------------------------------------------------------------------------
+        |    | aktiva                                       |  100-200  | 1             |                | A        |                           |
+        |    |                                              |           |               |                |          |                           |
+        |    | aktiva atau harta lancar                     |  101-119  | 11            | 0              | AL       |                           |
+        |    | kas                                          |  101      | 111           | 01             | AL-k     | AL-01                     |
+        |    | surat berharga                               |  102      | 112           | 02             | AL-SB    | AL-02                     |
+        |    | piutang                                      |  103      | 113           | 03             | AL-P     | AL-03                     |
+        |    |                                              |           |               |                |          |                           |
+        |    | aktiva tetap atau harta tetap                |  120      | 12            | 1              | AT       |                           |
+        |    | peralatan                                    |  121      | 121           | 11             | AT-P     | AT-01                     |
+        |    | mesin pabrik                                 |  122      | 122           | 12             | AT-MP    | AT-02                     |
+        |    | tanah                                        |  123      | 123           | 13             | AT-T     | AT-03                     |
+        |    | gedung                                       |  124      | 124           | 14             | AT-G     | AT-04                     |
+        |    | kendaraan                                    |  125      | 125           | 15             | AT-K     | AT-05                     |
+        |    |                                              |           |               |                |          |                           |
+        |    | utang                                        |  201-250  | 2             |                | U        |                           |
+        |    |                                              |           |               |                |          |                           |
+        |    | utang lancar                                 |  201      | 21            | 2              | UL       |                           |
+        |    | utang gaji                                   |  201      | 211           | 21             | UL-G     | UL-01                     |
+        |    | utang sewa                                   |  202      | 212           | 22             | UL-S     | UL-02                     |
+        |    | utang dagang                                 |  203      | 213           | 23             | UL-D     | UL-03                     |
+        |    |                                              |           |               |                |          |                           |
+        |    | utang jangka panjang                         |  212      | 22            | 3              | UJP      |                           |
+        |    | utang hipotik                                |  212      | 221           | 31             | UJP-H    | UJP-01                    |
+        |    | utang obligasi                               |  213      | 222           | 32             | UJP-O    | UJP-02                    |
+        |    |                                              |           |               |                |          |                           |
+        |    | modal                                        |  300      | 3             | 4              | M        |                           |
+        |    | modal sendiri                                |  301      | 31            | 41             | M-S      | M-01                      |
+        |    |                                              |           |               |                |          |                           |
+        |    | pendapatan                                   |  400      | 4             | 5              | P        |                           |
+        |    | pendapatan sewa                              |  401      | 41            | 51             | P-S      | P-01                      |
+        |    |                                              |           |               |                |          |                           |
+        |    | biaya                                        |  500      | 5             | 6              | B        |                           |
+        |    | biaya sewa                                   |  501      | 51            | 61             | B-S      | B-01                      |
+        |    | biaya iklan                                  |  502      | 52            | 62             | B-I      | B-02                      |
+        -----------------------------------------------------------------------------------------------------------------------------------------
 
 }

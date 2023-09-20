@@ -212,6 +212,8 @@ JURNAL UMUM
                 peralatan pabrik(+) didebit Rp 7.000.000
                 kas(-) dikredit Rp 2.500.000
                 hutang peralatan(+) didebit 4.500.000
+
+                                                jurnal umum
         --------------------------------------------------------------------------------------------  
         |        tanggal        |     keterangan     |    ref    |              jumlah             |
         |                       |                    |(referensi)|      debit     |     kredit     |
@@ -240,7 +242,7 @@ JURNAL UMUM
 
     1 . bentuk skontro
 
-                                                                   JURNAL UMUM
+                                                                   buku besar
                     debit                                              kas                                       kredit
         -----------------------------------------------------------------------------------------------------------------------------------------------------
         |        tanggal        |     keterangan     |    ref    |                |        tanggal        |     keterangan     |    ref    |                |
@@ -264,22 +266,22 @@ JURNAL UMUM
 
     2. bentuk stafel
 
-                                                    JURNAL UMUM
+                                                    buku besar
         -------------------------------------------------------------------------------------------------------------
         |        tanggal        |     keterangan     |    ref    |                |                |      saldo     |
         |                       |                    |(referensi)|      debit     |     kredit     |                |
         -------------------------------------------------------------------------------------------------------------
-        |    2016   |     01    |kas                 |           |Rp 30.000.000   |        -       |                |
-        |  february |           |    modal           |           |       -        |Rp 30.000.000   |                |
-        |           |           |(diterima setoran   |           |                |                |                |
-        |           |           | modal oleh pemilik)|           |                |                |                |
+        |    2016   |     01    |(diterima setoran   |           |Rp 30.000.000   |        -       |                |
+        |  february |           | modal oleh pemilik)|           |       -        |Rp 30.000.000   |                |
         |           |           |                    |           |                |                |                |
-        |           |     03    |peralatan pabrik    |           |Rp 7.000.000    |        -       |                |
-        |           |           |    kas             |           |       -        |Rp 2.500.000    |                |
-        |           |           |    hutang peralatan|           |       -        |Rp 4.500.000    |                |
-        |           |           |(membeli peralatan  |           |                |                |                |
-        |           |           | secara tunai dan   |           |                |                |                |
-        |           |           | kredit)            |           |                |                |                |
+        |           |           |                    |           |                |                |                |
+        |           |           |                    |           |                |                |                |
+        |           |     03    |(membeli peralatan  |           |Rp 7.000.000    |        -       |Rp 7.000.000    |
+        |           |           | secara tunai dan   |           |       -        |        -       |                |
+        |           |           | kredit)            |           |       -        |        -       |                |
+        |           |           |                    |           |                |                |                |
+        |           |           |                    |           |                |                |                |
+        |           |           |                    |           |                |                |                |
         |           |           |                    |           |                |                |                |
         |           |           |------------------------------------------------------------------------------------
         |           |           |jumlah dipindahkan  |           | Rp....         | Rp....         |Rp....          |
@@ -362,5 +364,182 @@ JURNAL UMUM
         |    | biaya sewa                                   |  501      | 51            | 61             | B-S      | B-01                      |
         |    | biaya iklan                                  |  502      | 52            | 62             | B-I      | B-02                      |
         -----------------------------------------------------------------------------------------------------------------------------------------
+        * perusahaan hanya memilih salah satu kode 
+    
+                                                jurnal umum
+                                                                                        hal: 1
+        --------------------------------------------------------------------------------------------  
+        |        tanggal        |     keterangan     |    ref    |              jumlah             |
+        |                       |                    |(referensi)|      debit     |     kredit     |
+        --------------------------------------------------------------------------------------------
+        |    2016   |     01    |kas                 |     101   |Rp 30.000.000   |        -       |
+        |  february |           |    modal           |           |       -        |Rp 30.000.000   |
+        |           |           |(diterima setoran   |           |                |                |
+        |           |           | modal oleh pemilik)|           |                |                |
+        |           |           |                    |           |                |                |
+        |           |           |                    |           |                |                |
+        |           |           |                    |           |                |                |
+        |           |           |                    |           |                |                |
+        |           |           |                    |           |                |                |
+        |           |           |                    |           |                |                |
+        |           |           |                    |           |                |                |
+        |           |           |                    |           |                |                |
+
+
+                                                      buku besar
+                                                        (101)
+        -------------------------------------------------------------------------------------------------------------
+        |        tanggal        |     keterangan     |    ref    |                |                |      saldo     |
+        |                       |                    |(referensi)|      debit     |     kredit     |                |
+        -------------------------------------------------------------------------------------------------------------
+        |    2016   |     01    |(diterima setoran   |   JU-1    |Rp 30.000.000   |        -       |                |
+        |  february |           | modal oleh pemilik)|           |       -        |Rp 30.000.000   |                |
+        |           |           |                    |           |                |                |                |
+        |           |           |                    |           |                |                |                |
+        |           |           |                    |           |                |                |                |
+        |           |     03    |(membeli peralatan  |   JU-1    |Rp 7.000.000    |        -       |Rp 7.000.000    |
+        |           |           | secara tunai dan   |           |       -        |        -       |                |
+        |           |           | kredit)            |           |       -        |        -       |                |
+        |           |           |                    |           |                |                |                |
+        |           |           |                    |           |                |                |                |
+        |           |           |                    |           |                |                |                |
+        |           |           |                    |           |                |                |                |
+
+
+}
+
+20-09-2023{
+    Evaluasi Usaha
+
+    1. rasio likuiditas
+    2. rasio solvabilitas
+    3. rasio rentabilitas
+
+    1. rasio likuiditas
+
+    pengertian likuiditas
+    likuiditas adalah kemampuan perusahaan untuk memenuhi semua kewajiban pada saat jatuh tempo atau sewaktu-waktu jika diminta.
+    contoh: 
+        - membayar gaji karyawan
+        - membayar utang
+        - mambyar tagihan listrik, dll
+
+    menghitung ekuitas perusahaan
+    a. current ratio (cr)
+    
+    CR = aktiva lancar / utang lancar * 100%
+
+    aktiva lancar -> kas, surat, dll
+
+    CR = > 200% -> likuid
+    CR = < 200% -> illikuid
+
+    likuid = mampu memenuhi kewajiban
+
+    b. quick ratio(QR)
+
+    QR = aktiva lancar - persediaan / utang lancar * 100%
+
+    CR = > 100% -> likuid
+    CR = < 100% -> illikuid
+
+    2. rasio solvabilitas
+    solvabilitas adalah kemampuan perusahaan untuk memenuhi semua kewajiban(utang) pada saat dilikuidasi(dibubarkan)
+
+    Rasio Solvabilitas = total harta / total hutang * 100%
+                       = >= 100% -> solvabel
+                       = <= 100% -> insolvabel
+
+    solvabel -> mampu memenuhi kewajiban saat dibubarkan
+
+    total harta = activa lancar + aktiva tetap
+    total hutang = utang lancar + utang jangka panjang
+
+    3. Rasio Rentabilitas 
+
+    Rentabilitas adalah kemampuan perusahaan untuk mendapat keuntungan selama periode tertentu
+
+    a. Rasio laba usaha dengan aktiva = laba usaha / aktiva * 100%
+    b. perputaran aktiva usaha = penjualan / aktiva * 100%
+    c. Gross margin ratio = laba kotor / penjualan * 100%
+    d. Net margin ratio = laba bersih / penjualan * 100%
+    e. rentabilitas modal sendiri = laba bersih / modal sendiri * 100%
+
+                                                    PT HARJUNA
+                                                      Neraca
+                                                per 31 Desember 2004
+
+                activa                                                                           pasiva
+                ________________________________________________________________________________________
+                |aktiva lancar                       |hutang lancar                                    |
+                |-kas               Rp. 25.000.000,00|-hutang dagang                 Rp. 76.000.000,00 |
+                |-piutang dagang    Rp. 75.000.000,00|-hutang wesel                  Rp. 25.000.000,00 |
+                |-persediaan       Rp. 200.000.000,00|-hutang bunga                   Rp. 9.000.000,00 |
+                |                                    |-hutang pajak                 Rp. 145.000.000,00 |
+                |aktiva tetap                        |                                                 |
+                |-mesin            Rp. 250.000.000,00|hutang jangka panjang                            |
+                |-bangunan         Rp. 300.000.000,00|-obligasi                     Rp. 180.000.000,00 |
+                |-tanah            Rp. 100.000.000,00|                                                 |
+                |                                    |modal sendiri                                    |
+                |                                    |-saham                        Rp. 420.000.000,00 |
+                |                                    |-laba ditahan                 Rp. 145.000.000,00 |
+                |                  __________________|                               __________________|
+                |jumlah            |Rp. 1.000.000.000|jumlah                         |Rp. 1.000.000.000|
+                |____________________________________|__________________________________________________
+
+
+                                                    PT HARJUNA
+                                                 Laporan Laba/Rugi
+                                               per 31 Desember 2004
+
+                penjualan                                           Rp. 2.000.000,00
+                harga pokok penjualan(HPP)                          Rp. 1.000.000,00 
+                                                                    ________________  -
+                Laba Bruto(kotor)                                   Rp. 1.000.000,00
+
+                Biaya administrasi          Rp. 300.000.000,00
+                Biaya penjualan             Rp. 250.000.000,00
+                Biaya umum                  Rp. 150.000.000,00 +
+                                                                    Rp. 700.000.000,00 
+                                                                    __________________  -
+                keuntungan operasional                              Rp. 300.000.000,00
+
+                bunga                                               Rp. 9.000.000,00 
+                                                                    __________________  -
+                kuntungan sebelum pajak                             Rp. 291.000.000,00
+                pajak perseroan                                     Rp. 145.000.000,00 
+                                                                    __________________  -
+                keuntungan bersih sesuai pajak                      Rp. 146.000.000,00
+
+
+                 1. rasio likuiditas
+                    a. CR   = aktiva lancar / utang lancar * 100%
+                            = 300.000.000 / 255.000.000 * 100%
+                            = 300 / 255 * 100%
+                            = 117,647059%
+                            = 117,65%
+                            = 117,65 / 100
+                            = 1,1765
+                            = 1,18 kali lipat
+                    kesimpulan : 
+                        PT. Harjuna dinyatakan illikuid karena 
+                        CR = < 200% yaitu 117,65%
+
+                        setiap Rp 1,00 utang lancar dapat dijamin dengan Rp 1,18 aktiva lancar
+
+                    b. QR   = aktiva lancar - persediaan / utang lancar * 100%
+                            = 300.000.000 - 200.000.000 / 255.000.000 * 100%
+                            = 100.000.000 / 255.000.000 * 100%
+                            = 100 / 255 * 100%
+                            = 39,215686%
+                            = 39,22%
+                            = 39,22/100
+                            = 0,3922
+                            = 0,39
+                    kesimpulan : 
+                        PT. Harjuna dinyatakan illikuid karena 
+                        QR = < 100% yaitu 39,22%
+
+                        Rp 0,39 aktiva lancar tidak dapat menjamin setiap Rp 1,00 utang lancar
 
 }
